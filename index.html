@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ÉcoPartage – Ensemble pour l’environnement</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 font-sans">
+
+  <!-- Header -->
+  <header class="bg-green-600 text-white p-6 text-center">
+    <h1 class="text-4xl font-bold">ÉcoPartage</h1>
+    <p class="text-lg mt-2">Partageons ensemble pour protéger notre planète</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-green-100 shadow p-4 text-center space-x-4">
+    <a href="#accueil" class="text-green-700 font-semibold hover:underline">Accueil</a>
+    <a href="#contenus" class="text-green-700 font-semibold hover:underline">Articles & Documents</a>
+    <a href="#formulaire" class="text-green-700 font-semibold hover:underline">Soumettre un contenu</a>
+    <a href="#apropos" class="text-green-700 font-semibold hover:underline">À propos</a>
+  </nav>
+
+  <!-- Accueil -->
+  <section id="accueil" class="p-8 text-center">
+    <h2 class="text-2xl font-bold mb-4">Bienvenue sur ÉcoPartage</h2>
+    <p class="text-gray-700 max-w-xl mx-auto">
+      Ce site est une plateforme collaborative dédiée à la diffusion de contenus éducatifs et inspirants liés à l’environnement. Vous y trouverez des articles, vidéos, PDF, et pouvez aussi partager vos propres ressources.
+    </p>
+  </section>
+
+  <!-- Contenus partagés -->
+  <section id="contenus" class="bg-white p-8">
+    <h2 class="text-2xl font-bold text-center mb-6">Articles & Documents</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Exemple de contenu -->
+      <div class="bg-green-100 p-4 rounded shadow">
+        <h3 class="font-semibold text-lg">Pollution de l'eau : enjeux mondiaux</h3>
+        <p class="text-sm text-gray-600">PDF - 12 pages</p>
+        <a href="docs/pollution-eau.pdf" target="_blank" class="text-green-700 mt-2 inline-block hover:underline">Lire / Télécharger</a>
+      </div>
+      <div class="bg-green-100 p-4 rounded shadow">
+        <h3 class="font-semibold text-lg">Vidéo : Comprendre le changement climatique</h3>
+        <p class="text-sm text-gray-600">YouTube - 5 min</p>
+        <a href="https://youtu.be/video123" target="_blank" class="text-green-700 mt-2 inline-block hover:underline">Regarder</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulaire de soumission -->
+  <section id="formulaire" class="p-8 bg-green-50">
+    <h2 class="text-2xl font-bold text-center mb-4">Soumettre un contenu</h2>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Titre du contenu" class="w-full border p-2 rounded">
+      <textarea placeholder="Description (facultatif)" class="w-full border p-2 rounded"></textarea>
+      <input type="url" placeholder="Lien (Google Drive, YouTube, etc.)" class="w-full border p-2 rounded">
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Soumettre</button>
+    </form>
+  </section>
+
+  <!-- À propos -->
+  <section id="apropos" class="p-8 bg-white text-center">
+    <h2 class="text-2xl font-bold mb-4">À propos du site</h2>
+    <p class="text-gray-700 max-w-2xl mx-auto">
+      ÉcoPartage est un projet ouvert visant à favoriser la sensibilisation environnementale en diffusant des contenus accessibles à tous. Pour contribuer, utilisez le formulaire ou contactez-nous par mail.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white text-center p-4">
+    © 2025 ÉcoPartage | Développé avec ❤️ pour la planète
+  </footer>
+
+</body>
+</html>
